@@ -20,9 +20,15 @@ class Fish extends Animal
         echo 'silence' . PHP_EOL;
     }
 
+
     function legs()
     {
         echo '0' . PHP_EOL;
+    }
+
+    function swim()
+    {
+        echo 'swimming' . PHP_EOL;
     }
 }
 
@@ -52,6 +58,7 @@ $cat_stepan->say();
 $cat_stepan->legs();
 $fish->say();
 $fish->legs();
+$fish->swim();
 
 
 ?>
